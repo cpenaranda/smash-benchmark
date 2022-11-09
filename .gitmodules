@@ -1,0 +1,3 @@
+[submodule "smash"]
+	path = smash
+	url = git@github.com:cpenaranda/smash.git
