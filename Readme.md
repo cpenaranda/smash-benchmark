@@ -31,7 +31,7 @@ Smash contains external code. Compression libraries have been added as submodule
 An easy way to compile this repository is:
 
 ```
-git clone git@github.com:cpenaranda/smash.git
+git clone git@github.com:cpenaranda/smash-benchmark.git
 cd smash-benchmark
 git submodule update --init --recursive --force
 mkdir build
