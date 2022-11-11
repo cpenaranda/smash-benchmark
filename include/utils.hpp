@@ -23,6 +23,8 @@ class Utils {
   inline static const std::string available_arguments_ =
       "Available arguments where minimum values are used by default.\n"
       "The minimum values depend on compression libraries:";
+  inline static const std::string available_arguments_library_ =
+      "Available arguments used by this library:";
 
   inline static const std::string help_p1_ = "-h";
   inline static const std::string help_p2_ = "--help";

@@ -165,13 +165,7 @@ There is an argument that shows information about a specific library.
 ``` bash
 bin/smash_benchmark -h c-blosc2
 c-blosc2       - High performance compressor optimized for binary data
-To run the smash benchmark:
-
- -i, --input_file <file_name>                File name to compress
-
- -o, --output_file <file_name>               File name where the compress data is stored
-
- -n, --repetition_number <number>            Compression and decompression are done <number> times (1 by default)
+Available arguments used by this library:
 
  -l, --level <number>                        Compression level to use
                                              Available values [0-9]

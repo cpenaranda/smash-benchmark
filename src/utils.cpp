@@ -227,11 +227,7 @@ void Utils::ShowLibraryInformation(const std::string &library_name,
   for (auto &lib_name : libraries) {
     Smash lib(lib_name);
     lib.GetTitle();
-    std::cout << how_to_run_ << std::endl << std::endl;
-    PrintLine(input_file_left_message_, input_file_right_message_);
-    PrintLine(output_file_left_message_, output_file_right_message_);
-    PrintLine(repetition_number_left_message_,
-              repetition_number_right_message_);
+    std::cout << available_arguments_library_ << std::endl << std::endl;
 
     std::vector<std::string> information;
     lib.GetCompressionLevelInformation(&information);
